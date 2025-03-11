@@ -1,32 +1,27 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
-
-import {
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import { SafeAreaView, StyleSheet, View } from 'react-native';
 import StartScreen from './StartScreen';
-
-
+import SignUp from './SignUp';
+import Login from './Login';
 
 function App(): React.JSX.Element {
   return (
-    <StartScreen/>
+    <SafeAreaView style={styles.safeArea}>
+      <View style={styles.container}>
+        <SignUp/>
+      </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
- 
+  safeArea: {
+    flex: 1,  // Ensures the app takes up the full screen
+  },
+  container: {
+    flex: 1,  
+    backgroundColor:"#000"
+  },
 });
 
 export default App;
