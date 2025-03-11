@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/customItalic.ttf",
+      "sha1": "ca1eaa5033a6a10e76ea9e80d90a270e4c7f5191"
+    },
+    {
+      "path": "assets/fonts/customNormal.ttf",
+      "sha1": "9f4446ac19ac127f97ea6a9469d370568fd306b2"
+    }
+  ]
+}
